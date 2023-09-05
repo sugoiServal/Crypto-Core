@@ -2,13 +2,7 @@
 
 A crypto currenty market data dashboard powered by [CoinGecko api](https://www.coingecko.com/en/api/documentation). Data is plot with `react-chartjs-2` and `react-sparklines`
 
-[live]()
-
-## requirement
-
-[CoinGecko api](https://www.coingecko.com/en/api/documentation)
-[react-chartjs-2]
-[react-sparklines]
+[live](https://cryptocore-42535.web.app)
 
 ## Get Started
 
@@ -17,7 +11,25 @@ npm install
 npm start
 ```
 
-# Getting Started with Create React App
+## Firebase hosting
+
+```bash
+npm run build
+
+npm install -g firebase-tools
+firebase login      # Sign in to Google
+firebase init
+firebase deploy
+```
+
+### Redelopy
+
+```bash
+npm run build
+firebase deploy
+```
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -86,4 +98,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
