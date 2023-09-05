@@ -23,6 +23,7 @@ export default function LineChart({rawData}) {
       const date = new Date(timestamp)
       coinTimestamp.push(date.toLocaleDateString());
     }
+    coinTimestamp.reverse();
   }
   calTimeStamp(rawData, coinTimestamp)
   const data = {
