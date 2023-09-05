@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .navbar {
+        @apply flex justify-center items-center
+    }
+    .icon {
+        @apply text-3xl text-primary
+    }
+
+  }

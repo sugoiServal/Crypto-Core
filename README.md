@@ -1,3 +1,22 @@
+# Crypto Core
+
+A crypto currenty market data dashboard powered by [CoinGecko api](https://www.coingecko.com/en/api/documentation). Data is plot with `react-chartjs-2` and `react-sparklines`
+
+[live]()
+
+## requirement
+
+[CoinGecko api](https://www.coingecko.com/en/api/documentation)
+[react-chartjs-2]
+[react-sparklines]
+
+## Get Started
+
+```bash
+npm install
+npm start
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
